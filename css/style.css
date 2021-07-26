@@ -1,0 +1,47 @@
+.header, .hero, .body, .bar, .footer{
+	background-color: limegreen;
+	margin-bottom: 10px;
+}
+
+.box{
+	margin: 10px 0;
+	background-color: red;
+	min-height: 80px;
+	color: white;
+}
+
+.three{
+	background-color: yellow;
+	color: black;
+}
+
+.five{
+	background-color: blue;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	color: white;
+}
+
+.mh-400{
+	width: 400px;
+	height: 200px;
+}
+
+.myarea{
+	width: 350px;
+	height: 350px;
+}
+
+.box-area{
+	min-height: 500px;
+}
+
+.black-box{
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}

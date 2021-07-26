@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BT5 Custom Layout and show Hide</title>
+  </head>
+  <body>
+
+    <section class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-12">
+            <div class="box">1.1</div>
+          </div>
+          <div class="col-md-7 col-sm-6 col-7">
+            <div class="box">1.2</div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-5">
+            <div class="box">1.3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-8 d-sm-block d-none">
+                <div class="box">2.1</div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">2.2</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-md-block d-none">
+            <div class="box three">3</div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <section class="body">  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4 col-sm-9">
+                <div class="box">4.1</div>
+              </div>
+              <div class="col-sm-3 d-md-none d-block">
+                <div class="box three">3</div>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <div class="box">4.2</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-md-block d-none">
+            <div class="box five">5</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bar d-md-none d-sm-block d-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box five">5</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box">6</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap Utilites Practice -->
+    <div class="container">
+      <div class="d-inline-block box2 bg-primary fs-2 text-center border border-info border-0 rounded">1</div>
+      <div class="d-inline-block box2 bg-success fs-2 text-center border border-info border-0 rounded-top">2</div>
+      <div class="d-inline-block box2 bg-danger fs-2 text-center border border-info border-0 rounded-bottom">3</div>
+      <div class="d-inline-block box2 bg-dark fs-2 text-center border border-info border-5 rounded-circle">4</div>
+      <div class="d-inline-block box2 bg-warning fs-2 text-center border border-info border-0 rounded-pill w-25">5</div>
+    </div>
+
+    <div class="container">
+      <p class="text-primary fs-2 text-center bg-dark">Lorem ipsum dolor sit amet.</p>
+      <div class="d-flex bg-info mb-2">I'm a flexbox container!</div>
+      <div class="d-inline-flex bg-info">I'm a flexbox container!</div>
+    </div>
+
+    <div class="container d-flex">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+    <div class="container d-flex flex-row-reverse">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+    <div class="container d-flex justify-content-center">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+    <div class="container d-flex justify-content-around">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+    <div class="container d-flex justify-content-between">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+    <div class="container d-flex justify-content-around">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+    <div class="container d-flex justify-content-center">
+      <div class="box2 bg-warning"></div>
+      <div class="box2 bg-dark"></div>
+      <div class="box2 bg-primary"></div>
+      <div class="box2 bg-danger"></div>
+    </div>
+
+    <!-- Aling Items -->
+    <div class="container">
+      <div class="border border-4 border-primary d-flex align-items-center justify-content-center mh-400">
+          <button type="button" class="btn btn-primary">Example button</button>
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="test d-flex">
+        <div class="me-auto p-2 bg-highlight border border-2 border-success">Lorem</div>
+        <div class="p-2 bg-highlight border border-2 border-success">Lorem</div>
+        <div class="p-2 bg-highlight border border-2 border-success">Lorem</div>
+        <div class="p-2 bg-highlight border border-2 border-success">Lorem</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="test d-flex">
+        <div class="p-2 bg-highlight border border-2 border-success">Lorem</div>
+        <div class="p-2 bg-highlight border border-2 border-success">Lorem</div>
+        <div class="p-2 bg-highlight border border-2 border-success">Lorem</div>
+         <div class="ms-auto p-2 bg-highlight border border-2 border-success">Lorem</div>
+      </div>
+    </div>
+
+    <div class="container overflow-hidden">
+      <p class="float-start">Lorem, ipsum, dolor.</p>
+      <p class="float-end">Lorem, ipsum, dolor.</p>
+    </div>
+
+    <p class="container user-select-all">Lorem ipsum dolor, sit amet.</p>
+
+    <div class="container">
+      <div class="myarea overflow-scroll">
+        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Accusantium iste, optio, nihil obcaecati autem cum cupiditate id molestiae ipsa iusto alias distinctio, sed, accusamus possimus tenetur officiis quam? Repellendus mollitia nihil soluta cumque temporibus incidunt quisquam tempore natus iste, sunt praesentium, officiis at quia, odio magni suscipit harum nesciunt, iusto. Itaque quisquam provident nam laborum mollitia ipsam esse nulla minima? Nisi similique perspiciatis modi totam adipisci, unde, id sunt illo, non, explicabo sequi reiciendis rerum facilis neque ab nobis placeat. Omnis perferendis quidem eveniet enim delectus dolorem ex error provident nulla, est quia vel quaerat, architecto autem officiis atque modi?</p>
+      </div>
+    </div>
+
+    <!-- Positioning bt -->
+    <div class="container mt-5">
+      <div class="position-relative box-area">
+      <div class="black-box position-absolute top-0 start-0"></div>
+      <div class="black-box position-absolute top-0 end-0"></div>
+      <div class="black-box position-absolute top-50 start-50"></div>
+      <div class="black-box position-absolute bottom-50 end-50"></div>
+      <div class="black-box position-absolute bottom-0 start-0"></div>
+      <div class="black-box position-absolute bottom-0 end-0"></div>
+    </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="position-relative box-area">
+        <div class="black-box position-absolute top-0 start-0"></div>
+        <div class="black-box position-absolute top-0 start-50 translate-middle-x"></div>
+        <div class="black-box position-absolute top-0 end-0"></div>
+        <div class="black-box position-absolute top-50 start-0 translate-middle-y"></div>
+        <div class="black-box position-absolute top-50 start-50 translate-middle"></div>
+        <div class="black-box position-absolute top-50 end-0 translate-middle-y"></div>
+        <div class="black-box position-absolute bottom-0 start-0"></div>
+        <div class="black-box position-absolute bottom-0 start-50 translate-middle-x"></div>
+        <div class="black-box position-absolute bottom-0 end-0"></div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="mx-auto border border-success rounded-pill overflow-hidden" style="width: 200px;">
+        
+        <span class="float-end p-3">menu</span>
+        <span class="float-start p-3">logo</span>
+        
+      </div>
+    </div>
+   
+    <hr>
+    <!-- Form Validation -->
+
+    <div class="container pb-5">
+      <h3 class="text-center">Registration Form</h3>
+      <div class="row justify-content-lg-center">
+        <div class="col-lg-6">
+          <form action="" class="needs-validation" novalidate="">
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Enter your Full Name:</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" required="">
+              <div class="valid-feedback">
+                Looks Good
+              </div>
+              <div class="invalid-feedback">
+                Please enter your Full name
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Enter your Email address:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@gmail.com" required="">
+              <div class="valid-feedback">
+                Looks Good
+              </div>
+              <div class="invalid-feedback">
+                Please enter your valid email address
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Enter your password:</label>
+              <input type="password" class="form-control" id="password" name="password" required="">
+              <div class="valid-feedback">
+                Looks Good
+              </div>
+              <div class="invalid-feedback">
+                Please enter your password
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>      
+    
+
+    <!--JS -->
+    <script src="js/popper.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>   
+    <script src="js/script.js"></script>   
+   
+  </body>
+</html>
